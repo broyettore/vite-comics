@@ -1,0 +1,40 @@
+<script>
+import dcLogo from './dcLogo.vue';
+import navBar from './navBar.vue';
+
+export default {
+    data() {
+        return {
+            // a 
+        }
+    },
+
+    components: {
+        dcLogo,
+        navBar
+    }
+}
+</script>
+
+<template>
+    <header>
+        <div class="container">
+            <dcLogo></dcLogo>
+            <navBar></navBar>
+        </div>
+    </header>
+</template>
+
+<style lang="scss" scoped>
+@use "../styles/colors.scss" as *;
+@use "../styles/reset.scss" as *;
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+</style>

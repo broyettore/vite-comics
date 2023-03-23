@@ -1,28 +1,27 @@
 <script>
-import header from './components/header.vue';
-import main from './components/main.vue';
-import options from './components/options.vue';
-import footer from './components/footer.vue';
+import headerComp from './components/headerComp.vue';
+import mainComp from './components/mainComp.vue';
+import optionComp from './components/optionComp.vue';
+import footerComp from './components/footerComp.vue';
 
 export default {
     components: {
-        header,
-        main,
-        options,
-        footer
+        headerComp,
+        mainComp,
+        footerComp
     }
 }
 
 </script>
 
 <template>
-    <header></header>
-    <main></main>
-    <options></options>
-    <footer></footer>
+    <headerComp></headerComp>
+    <mainComp></mainComp>
+    <footerComp></footerComp>
 </template>
 
-<style lang="scss" scoped>
-@use "./styles/general.scss" as *;
+<style lang="scss">
+@use "./styles/colors.scss" as *;
+@use "./styles/reset.scss" as *;
 
 </style>

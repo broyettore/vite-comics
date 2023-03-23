@@ -12,6 +12,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use "./styles/general.scss" as *;
+@use "../styles/colors.scss" as *;
+@use "../styles/reset.scss" as *;
 
 </style>
