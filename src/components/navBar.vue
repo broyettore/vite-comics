@@ -105,6 +105,7 @@ nav {
 
                 &:hover {
                     color: $bg-alt-color;
+                    transition: color .20s;
                 }
 
                 &::after {

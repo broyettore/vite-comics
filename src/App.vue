@@ -1,7 +1,6 @@
 <script>
 import headerComp from './components/headerComp.vue';
 import mainComp from './components/mainComp.vue';
-import optionComp from './components/optionComp.vue';
 import footerComp from './components/footerComp.vue';
 
 export default {

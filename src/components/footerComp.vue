@@ -3,12 +3,6 @@ import footerTop from './footerTop.vue';
 import footerBottom from './footerBottom.vue';
 
 export default {
-    data() {
-        return {
-            // a 
-        }
-    },
-
     components: {
         footerTop,
         footerBottom
@@ -24,5 +18,4 @@ export default {
 <style lang="scss" scoped>
 @use "../styles/colors.scss" as *;
 @use "../styles/reset.scss" as *;
-
 </style>

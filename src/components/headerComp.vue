@@ -3,12 +3,6 @@ import dcLogo from './dcLogo.vue';
 import navBar from './navBar.vue';
 
 export default {
-    data() {
-        return {
-            // a 
-        }
-    },
-
     components: {
         dcLogo,
         navBar
