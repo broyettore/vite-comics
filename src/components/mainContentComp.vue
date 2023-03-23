@@ -23,14 +23,15 @@ export default {
 .main-content-ctn {
     background-color: $secondary-color;
     height: calc(100vh - 103px);
+
+    .container {
+        max-width: 1300px;
+        margin: 0 auto;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
-.container {
-    max-width: 1300px;
-    margin: 0 auto;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 </style>

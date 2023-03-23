@@ -88,9 +88,10 @@ nav {
             align-items: center;
             padding: 5px;
             margin: 5px;
-            font-size: 0.9rem;
+            font-size: 0.925rem;
             height: 100%;
             position: relative;
+            letter-spacing: -1px;
 
             &:last-child {
                 margin-right: 0;
