@@ -31,13 +31,13 @@ export default {
                         </a>
                     </span>
                 </div>
-                <div class="socials">
-                    <div class="icon-ctn" v-for="element in socialList">
+                <ul class="socials">
+                    <il class="icon-ctn" v-for="element in socialList">
                         <a :href="link">
                             <img :src="element" :alt="link">
                         </a>
-                    </div>
-                </div>
+                    </il>
+                </ul>
             </div>
         </div>
     </section>
