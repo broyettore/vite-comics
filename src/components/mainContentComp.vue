@@ -11,7 +11,7 @@ export default {
 <template>
     <section class="main-content-ctn">
         <div class="container">
-            <h1> {{ content }}</h1>
+            
         </div>
     </section>
 </template>
@@ -27,9 +27,6 @@ export default {
         max-width: 1300px;
         margin: 0 auto;
         height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 }
 
