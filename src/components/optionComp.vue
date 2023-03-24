@@ -50,7 +50,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use "../styles/colors.scss" as *;
+@use "../assets/styles/colors.scss" as *;
 
 .options-ctn {
     background-color: $bg-alt-color;

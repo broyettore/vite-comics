@@ -102,7 +102,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use "../styles/colors.scss" as *;
+@use "../assets/styles/colors.scss" as *;
 
 .footer-top {
     background-image: url(../../public/img/dc-logo-bg.png), url(../../public/img/footer-bg.jpg);
