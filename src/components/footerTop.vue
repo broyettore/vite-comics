@@ -103,7 +103,6 @@ export default {
 
 <style lang="scss" scoped>
 @use "../styles/colors.scss" as *;
-@use "../styles/reset.scss" as *;
 
 .footer-top {
     background-image: url(../../public/img/dc-logo-bg.png), url(../../public/img/footer-bg.jpg);

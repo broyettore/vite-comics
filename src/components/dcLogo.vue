@@ -16,8 +16,6 @@ export default {
 
 <style lang="scss" scoped>
 @use "../styles/colors.scss" as *;
-@use "../styles/reset.scss" as *;
-
 .logo-ctn {
 
     img {
